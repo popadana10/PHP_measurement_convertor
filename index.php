@@ -14,5 +14,8 @@
 			<li><a href="mass.php">Mass</a></li>
 		</ul>
 	</div>
+<div id="footer">
+    <p>&copy; <?php echo date("Y"); ?> Dana Popa</p>
+</div>
 </body>
 </html>
