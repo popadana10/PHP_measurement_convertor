@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    min-height: 100vh; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+.convertor-container {
+    width: 80%; 
+    max-width: 500px; 
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px; 
+    padding-right: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#measurement-types {
+    list-style-type: none;
+    padding: 0;
+}
+
+.measurement-button {
+    display: block;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.measurement-button a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+}
+
+.measurement-button a:hover {
+    background-color: #0056b3;
+}
