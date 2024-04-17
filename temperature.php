@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Conversion</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main-content">
         <h1>Temperature Conversion</h1>
-        <form action="" method="post">
+        <form method="post">
             <label for="celsius">Enter Celsius:</label>
             <input type="text" id="celsius" name="celsius">
             <button type="submit">Convert</button>
